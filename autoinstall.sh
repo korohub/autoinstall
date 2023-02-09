@@ -1,6 +1,14 @@
 # update
 sudo apt update
 
+# generic
+sudo apt install net-tools lsb-release
+
+#alias
+echo "alias 'p=python3'" >> ~/.bashrc
+echo "alias 'update=sudo apt update'" >> ~/.bashrc
+
+
 # install vscode
 sudo apt install software-properties-common apt-transport-https wget -y
 wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
@@ -18,4 +26,6 @@ sudo apt install putty -y
 sudo apt install filezilla -y
 
 # dbeaver
-sudo apt install dbeaver-ce -y
+wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+sudo dpkg -i dbeaver-ce_latest_amd64.deb
+
