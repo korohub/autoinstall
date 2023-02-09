@@ -19,6 +19,7 @@ sudo apt install code -y
 # install chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
 
 # putty
 sudo apt install putty -y
@@ -29,6 +30,7 @@ sudo apt install filezilla -y
 # dbeaver
 wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
 sudo dpkg -i dbeaver-ce_latest_amd64.deb
+rm -rf dbeaver-ce_latest_amd64.deb
 
 # docker 
 
@@ -52,3 +54,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 sudo groupadd docker
 sudo usermod -aG docker $USER
+
+# obsidian 
+
+wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.1.9/obsidian_1.1.9_amd64.deb
+dpkg -i obsidian_1.1.9_amd64.deb
+rm -rf obsidian_1.1.9_amd64.deb
