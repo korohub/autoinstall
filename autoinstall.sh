@@ -2,7 +2,7 @@
 sudo apt update
 
 # generic
-sudo apt install net-tools lsb-release -y
+sudo apt install net-tools lsb-release tmux virt-manager -y
 
 #alias
 echo "alias 'p=python3'" >> ~/.bashrc
@@ -63,3 +63,4 @@ rm -rf obsidian_1.1.9_amd64.deb
 
 # golang
 sudo apt install -y golang-go
+
