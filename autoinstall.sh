@@ -64,3 +64,5 @@ rm -rf obsidian_1.1.9_amd64.deb
 # golang
 sudo apt install -y golang-go
 
+# mate desktop
+sudo apt install ubuntu-mate-desktop -y
