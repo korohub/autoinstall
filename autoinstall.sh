@@ -2,7 +2,7 @@
 sudo apt update
 
 # generic
-sudo apt install net-tools lsb-release
+sudo apt install net-tools lsb-release -y
 
 #alias
 echo "alias 'p=python3'" >> ~/.bashrc
