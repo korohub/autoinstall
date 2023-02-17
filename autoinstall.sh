@@ -64,5 +64,15 @@ rm -rf obsidian_1.1.9_amd64.deb
 # golang
 sudo apt install -y golang-go
 
+# flatpak
+sudo apt install flatpak
 
+sudo add-apt-repository ppa:flatpak/stable
+sudo apt update
+sudo apt install flatpak
+
+sudo apt install gnome-software-plugin-flatpak
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+sudo flatpak install flathub com.bitwarden.desktop
 
