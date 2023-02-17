@@ -82,3 +82,5 @@ sudo flatpak install -y flathub com.getpostman.Postman
 sudo flatpak install -y flathub com.discordapp.Discord
 # vgdrive google drive
 sudo flatpak install -y flathub com.github.bcedu.vgrive
+# ksnip screenshot
+sudo flatpak install -y flathub org.ksnip.ksnip
