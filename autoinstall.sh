@@ -4,7 +4,7 @@ sudo apt update
 # generic
 sudo apt install net-tools lsb-release tmux virt-manager -y
 
-#alias
+# alias
 echo "alias 'p=python3'" >> ~/.bashrc
 echo "alias 'update=sudo apt update'" >> ~/.bashrc
 
@@ -27,13 +27,12 @@ sudo apt install putty -y
 # filezilla
 sudo apt install filezilla -y
 
-# dbeaver
-wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-sudo dpkg -i dbeaver-ce_latest_amd64.deb
-rm -rf dbeaver-ce_latest_amd64.deb
+# # dbeaver
+# wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+# sudo dpkg -i dbeaver-ce_latest_amd64.deb
+# rm -rf dbeaver-ce_latest_amd64.deb
 
 # docker 
-
 sudo apt-get update
 sudo apt-get install \
     ca-certificates \
@@ -56,7 +55,6 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 
 # obsidian 
-
 wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.1.9/obsidian_1.1.9_amd64.deb
 sudo dpkg -i obsidian_1.1.9_amd64.deb
 rm -rf obsidian_1.1.9_amd64.deb
@@ -82,3 +80,11 @@ sudo flatpak install -y flathub com.discordapp.Discord
 #sudo flatpak install -y flathub com.github.bcedu.vgrive
 # ksnip screenshot
 sudo flatpak install -y flathub org.ksnip.ksnip
+# Dbeaver-ce
+flatpak install flathub io.dbeaver.DBeaverCommunity
+
+# update
+sudo apt update
+
+# reboot
+sudo reboot
