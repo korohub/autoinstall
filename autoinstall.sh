@@ -77,6 +77,8 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 # bitwarden
 sudo flatpak install -y flathub com.bitwarden.desktop
 # postman
-flatpak install flathub -y com.getpostman.Postman
+sudo flatpak install -y flathub com.getpostman.Postman
 # discord
-flatpak install flathub -y com.discordapp.Discord
+sudo flatpak install -y flathub com.discordapp.Discord
+# vgdrive google drive
+sudo flatpak install -y flathub com.github.bcedu.vgrive
