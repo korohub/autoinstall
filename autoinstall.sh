@@ -84,7 +84,7 @@ sudo flatpak install -y flathub org.ksnip.ksnip
 flatpak install -y flathub io.dbeaver.DBeaverCommunity
 
 # update
-sudo apt update
+sudo apt update 
 
 # reboot
 sudo reboot
