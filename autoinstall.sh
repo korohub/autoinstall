@@ -81,7 +81,7 @@ sudo flatpak install -y flathub com.discordapp.Discord
 # ksnip screenshot
 sudo flatpak install -y flathub org.ksnip.ksnip
 # Dbeaver-ce
-flatpak install flathub io.dbeaver.DBeaverCommunity
+flatpak install -y flathub io.dbeaver.DBeaverCommunity
 
 # update
 sudo apt update
