@@ -74,5 +74,7 @@ sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
+# bitwarden
 sudo flatpak install flathub com.bitwarden.desktop
-
+# postman
+flatpak install flathub com.getpostman.Postman
